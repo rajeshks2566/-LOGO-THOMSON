@@ -1,0 +1,316 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.banner
+{
+    display: flex;
+    background-color: rgb(236, 236, 236);  
+}
+.banner div
+{
+    padding: auto;
+    margin: auto;
+}
+.banner1 li
+{
+    text-align: center;
+}
+.banner2 
+{
+    text-align: right;
+   
+}
+.banner2 a
+{
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Image Section Starts */
+
+.img
+{
+    background-image: url(./bg-banner\ \(2\).jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+
+}
+.img1
+{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    
+}
+.img1 li
+{
+    font-size: 45px;
+}
+.btn
+{
+    text-align: center;
+}
+.btn button
+{
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 22px;
+   padding-right: 22px;
+   background-color: rgb(58, 56, 56);
+   color: white;
+
+}
+
+
+/* Image Section Ends */
+
+/* Navigation Starts */
+.nav 
+{
+    display: flex;
+    
+}
+.nav1
+{
+    
+    background-color: rgb(248, 242, 242);
+    padding-left: 290px;
+    padding-right: 30px;
+    
+}
+.nav2
+{
+    padding-right: 32px;
+    padding-left: 20px;
+    background-color: rgb(218, 214, 214);
+}
+.nav3
+{
+    padding-right: 303px;
+    background-color: rgb(153, 151, 151);
+    padding-left:35px;
+   
+}
+.nav h5
+{
+    text-align: center;
+}
+.nav li
+{
+    text-align: center;
+}
+.nav1 div
+{
+    padding-bottom: 10px;
+
+}
+
+/* Navigation Ends */
+
+
+
+.title1
+{
+    display: flex;
+    
+}
+.title1 img
+{
+    width:628px;
+   
+}
+.title2
+{
+    background-color: rgb(238, 238, 238);
+    
+}
+.title2 div
+{
+    padding-left: 120px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.title4
+{
+    display: flex;
+    
+}
+.title6 img
+{
+    width:635px;
+   
+}
+.title5
+{
+    background-color: rgb(75, 74, 74);
+    padding-left: 40px;
+    color: white;
+}
+.title5 div
+{
+    /* padding-left: 120px; */
+    font-size: 20px;
+    text-align: left;
+}
+
+.title6
+{
+    display: flex;
+    
+}
+.title7 div
+{
+    padding-left: 120px;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1px;
+    background-color: rgb(238, 238, 238);
+   padding-bottom: 80px;
+}
+.title8
+{
+    padding-right: 337px;
+    padding-top: 20px;
+}
+
+/* .title3 img
+{
+    background-size: 100%;
+    margin-bottom: 0px;
+    position: static;
+} */
+.que input
+{
+    padding: 5px;
+    padding-right: 80px;
+}
+.que1 div
+{
+    padding-bottom: 5px;
+}
+.que5 input
+{
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+.que6 label
+{
+    font-size: 12px;
+}
+.submit
+{
+    text-align: center;
+    
+}
+.submit button
+{
+   padding-top: 8px;
+   
+   padding-left: 100px;
+   padding-right: 100px;
+   background-color: rgb(58, 56, 56);
+   color: white;
+
+}
+.title8
+{
+    background-color: rgb(153, 151, 151);
+    padding-left: 40px;
+}
+.title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Company Starts */
+.comp2 li
+{
+    display: inline-block;
+}
+.comp div
+{
+    text-align: center;
+    
+}
+.comp
+{
+    padding-top: 60px;
+    background-color:rgb(245, 245, 245); 
+    padding-bottom: 60px;
+}
+.comp1 div
+{
+    padding-bottom: 50px;
+}
+.comp2 
+{
+    padding-bottom: 50px;
+}
+.comp2 i
+{
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+}
+.comp2 a
+{
+    color: white;
+    padding: 15px;
+    border-radius: 28px;
+    background-color: rgb(211, 211, 211);
+    text-decoration: none;
+}
+.arrow 
+{
+    text-align: center;
+    background-color:rgb(245, 245, 245); 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.arrow i
+{
+    color: white;
+    padding: 15px;
+    border-radius: 28px;
+    background-color: rgb(211, 211, 211);
+    text-decoration: overline;
+    
+
+}
+
+/* Hover effects */
+.btn button:hover
+{
+    background-color: rgb(207, 250, 207);
+    color: black;
+    font-weight: bold;
+}
+.comp2 li :hover
+{
+    color: blue;
+    background-color: rgba(107, 107, 156, 0.294);
+}
+.arrow li :hover
+{
+    color: blue;
+    background-color: rgba(107, 107, 156, 0.294);
+}
+.banner2 a:hover
+{
+    color: blue;
+    background-color: rgba(107, 107, 156, 0.294);
+}
+
+
+
+
